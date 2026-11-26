@@ -75,9 +75,9 @@ httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
 ## OUTPUT:
-![Alt text](<Screenshot 2026-11-26 193511.png>)
+![Alt text](output1.png)
 
-![Alt text](<Screenshot 2026-11-26 193548 copy 2.png>)
+![Alt text](output2.png)
 
 
 
