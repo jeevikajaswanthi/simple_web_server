@@ -21,7 +21,8 @@ Serving the HTML pages.
 Testing the webserver.
 
 # PROGRAM:
-'''from http.server import HTTPServer, BaseHTTPRequestHandler
+```python
+from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
 <title>Top Software Industries</title>
@@ -58,6 +59,7 @@ content = """
 <th>symentec</th>
 <th>5.6 billion</th>
 </tr>
+</table>
 </body>
 </html>
 """
@@ -72,9 +74,9 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
-'''
 ## OUTPUT:
 ![Alt text](<Screenshot 2026-11-26 193511.png>)
+
 ![Alt text](<Screenshot 2026-11-26 193548 copy 2.png>)
 
 
